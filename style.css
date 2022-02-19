@@ -1,0 +1,45 @@
+#pfp {
+    border-radius: 50%;
+    border: 5px outset rgb(102, 136, 108);
+}
+#welcome {
+    color:aliceblue;
+    font-family: 'Cormorant Garamond', serif;
+    background-image: linear-gradient(45deg, #75dddd, #508991, #172a3a, #004346, #09bc8a);
+    border: 5px outset slategray;
+    padding: 20px;
+    opacity: 1;
+    width: 30%;
+    z-index: 4;
+}
+#intro {
+font-family: 'Space Mono', monospace;
+}
+#menu {
+    z-index: 6;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+.links {
+    float: left;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    color: #52b788;
+    text-shadow: 0 0 20px #fff, 0 0 30px #74c69d, 0 0 40px #74c69d, 0 0 50px #74c69d, 0 0 60px #74c69d, 0 0 70px #74c69d, 0 0 80px #74c69d;
+}
+#bar {
+    background-image: linear-gradient(45deg, #081c15, #1b4332, #2d6a4f);
+    width: 100%;
+    height: 70px;
+    z-index: 5;
+}
+p {
+    max-width: 560px;
+    line-height: 1.2;
+}
